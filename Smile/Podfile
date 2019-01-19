@@ -1,0 +1,10 @@
+platform :ios,'10.0'
+target 'Smile' do
+pod 'RealmSwift'
+pod "Texture"
+pod "SnapKit"
+pod 'NVActivityIndicatorView'
+pod 'YPImagePicker',:git=>'https://github.com/JinchengKim/YPImagePicker'
+pod 'CropViewController'
+use_frameworks!
+end
