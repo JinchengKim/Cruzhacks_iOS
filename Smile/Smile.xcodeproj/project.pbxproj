@@ -8,6 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		7BB8E9857BD3399394C8095D /* Pods_Smile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91336BD2D9415EB2B2F53017 /* Pods_Smile.framework */; };
+		FA2424CE21F2F21D00599BEE /* SSColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424CD21F2F21D00599BEE /* SSColor.swift */; };
+		FA2424D021F2F22F00599BEE /* SSDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424CF21F2F22F00599BEE /* SSDefine.swift */; };
+		FA2424D821F2F2BB00599BEE /* SSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424D721F2F2BB00599BEE /* SSBaseViewController.swift */; };
+		FA2424DA21F2F2D500599BEE /* SSHintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424D921F2F2D500599BEE /* SSHintView.swift */; };
+		FA2424DC21F2F2F600599BEE /* SSLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424DB21F2F2F600599BEE /* SSLoadingView.swift */; };
+		FA2424DE21F2F32600599BEE /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424DD21F2F32600599BEE /* UIViewExtension.swift */; };
+		FA2424E021F2F33B00599BEE /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424DF21F2F33B00599BEE /* UIImageExtension.swift */; };
+		FA2424E221F2F35500599BEE /* SSFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424E121F2F35500599BEE /* SSFont.swift */; };
+		FA2424E621F2F41D00599BEE /* SmileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424E521F2F41D00599BEE /* SmileEditViewController.swift */; };
+		FA2424E821F2F43E00599BEE /* ChooseFaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424E721F2F43E00599BEE /* ChooseFaceView.swift */; };
+		FA2424EA21F2F44B00599BEE /* FaceRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424E921F2F44B00599BEE /* FaceRectView.swift */; };
+		FA2424EE21F3023C00599BEE /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424ED21F3023C00599BEE /* FinishViewController.swift */; };
+		FA2424F021F302F300599BEE /* ChooseSmileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424EF21F302F300599BEE /* ChooseSmileView.swift */; };
+		FA2424F421F303C300599BEE /* SmileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2424F221F303C300599BEE /* SmileCollectionViewCell.swift */; };
+		FA2424F521F303C300599BEE /* SmileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA2424F321F303C300599BEE /* SmileCollectionViewCell.xib */; };
+		FA25020E21F3A761005C4008 /* ChooseFaceToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25020D21F3A761005C4008 /* ChooseFaceToolView.swift */; };
+		FA25025921F429D8005C4008 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25025721F429D8005C4008 /* MainTableViewCell.swift */; };
+		FA25025A21F429D8005C4008 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA25025821F429D8005C4008 /* MainTableViewCell.xib */; };
+		FA25025E21F42C8D005C4008 /* SSRealmTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25025D21F42C8D005C4008 /* SSRealmTool.swift */; };
+		FA25026021F42CC2005C4008 /* SSItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA25025F21F42CC2005C4008 /* SSItem.swift */; };
 		FA2FC53421F2E543007C8E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FC53321F2E543007C8E4E /* AppDelegate.swift */; };
 		FA2FC53621F2E543007C8E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FC53521F2E543007C8E4E /* ViewController.swift */; };
 		FA2FC53921F2E543007C8E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2FC53721F2E543007C8E4E /* Main.storyboard */; };
@@ -19,6 +39,26 @@
 		1D922C90E68462A73628E0A0 /* Pods-Smile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smile.release.xcconfig"; path = "Pods/Target Support Files/Pods-Smile/Pods-Smile.release.xcconfig"; sourceTree = "<group>"; };
 		91336BD2D9415EB2B2F53017 /* Pods_Smile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A7A636A6C22B997F3AC16D /* Pods-Smile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Smile/Pods-Smile.debug.xcconfig"; sourceTree = "<group>"; };
+		FA2424CD21F2F21D00599BEE /* SSColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSColor.swift; sourceTree = "<group>"; };
+		FA2424CF21F2F22F00599BEE /* SSDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSDefine.swift; sourceTree = "<group>"; };
+		FA2424D721F2F2BB00599BEE /* SSBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSBaseViewController.swift; sourceTree = "<group>"; };
+		FA2424D921F2F2D500599BEE /* SSHintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSHintView.swift; sourceTree = "<group>"; };
+		FA2424DB21F2F2F600599BEE /* SSLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSLoadingView.swift; sourceTree = "<group>"; };
+		FA2424DD21F2F32600599BEE /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		FA2424DF21F2F33B00599BEE /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+		FA2424E121F2F35500599BEE /* SSFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSFont.swift; sourceTree = "<group>"; };
+		FA2424E521F2F41D00599BEE /* SmileEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileEditViewController.swift; sourceTree = "<group>"; };
+		FA2424E721F2F43E00599BEE /* ChooseFaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFaceView.swift; sourceTree = "<group>"; };
+		FA2424E921F2F44B00599BEE /* FaceRectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceRectView.swift; sourceTree = "<group>"; };
+		FA2424ED21F3023C00599BEE /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		FA2424EF21F302F300599BEE /* ChooseSmileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSmileView.swift; sourceTree = "<group>"; };
+		FA2424F221F303C300599BEE /* SmileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA2424F321F303C300599BEE /* SmileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmileCollectionViewCell.xib; sourceTree = "<group>"; };
+		FA25020D21F3A761005C4008 /* ChooseFaceToolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFaceToolView.swift; sourceTree = "<group>"; };
+		FA25025721F429D8005C4008 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		FA25025821F429D8005C4008 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
+		FA25025D21F42C8D005C4008 /* SSRealmTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSRealmTool.swift; sourceTree = "<group>"; };
+		FA25025F21F42CC2005C4008 /* SSItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSItem.swift; sourceTree = "<group>"; };
 		FA2FC53021F2E543007C8E4E /* Smile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA2FC53321F2E543007C8E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA2FC53521F2E543007C8E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +97,150 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		FA2424CA21F2EF5D00599BEE /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FA25025521F429BA005C4008 /* Main */,
+				FA2424EB21F2FDE600599BEE /* Finish */,
+				FA2424D221F2F26A00599BEE /* SmileEdit */,
+				FA2424D121F2F24F00599BEE /* Commom */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		FA2424CB21F2F1F200599BEE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		FA2424CC21F2F1F700599BEE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FA2424CD21F2F21D00599BEE /* SSColor.swift */,
+				FA2424CF21F2F22F00599BEE /* SSDefine.swift */,
+				FA2424E121F2F35500599BEE /* SSFont.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FA2424D121F2F24F00599BEE /* Commom */ = {
+			isa = PBXGroup;
+			children = (
+				FA2424D621F2F29300599BEE /* View */,
+				FA2424D521F2F28600599BEE /* Category */,
+				FA2424D421F2F27700599BEE /* Helper */,
+				FA2424D321F2F27100599BEE /* VC */,
+			);
+			path = Commom;
+			sourceTree = "<group>";
+		};
+		FA2424D221F2F26A00599BEE /* SmileEdit */ = {
+			isa = PBXGroup;
+			children = (
+				FA2424E421F2F3FA00599BEE /* View */,
+				FA2424E321F2F3F700599BEE /* VC */,
+			);
+			path = SmileEdit;
+			sourceTree = "<group>";
+		};
+		FA2424D321F2F27100599BEE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FA2424D721F2F2BB00599BEE /* SSBaseViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FA2424D421F2F27700599BEE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FA2424D521F2F28600599BEE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				FA2424DD21F2F32600599BEE /* UIViewExtension.swift */,
+				FA2424DF21F2F33B00599BEE /* UIImageExtension.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		FA2424D621F2F29300599BEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA2424D921F2F2D500599BEE /* SSHintView.swift */,
+				FA2424DB21F2F2F600599BEE /* SSLoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA2424E321F2F3F700599BEE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FA2424E521F2F41D00599BEE /* SmileEditViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FA2424E421F2F3FA00599BEE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA2424E721F2F43E00599BEE /* ChooseFaceView.swift */,
+				FA2424E921F2F44B00599BEE /* FaceRectView.swift */,
+				FA2424EF21F302F300599BEE /* ChooseSmileView.swift */,
+				FA2424F221F303C300599BEE /* SmileCollectionViewCell.swift */,
+				FA2424F321F303C300599BEE /* SmileCollectionViewCell.xib */,
+				FA25020D21F3A761005C4008 /* ChooseFaceToolView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA2424EB21F2FDE600599BEE /* Finish */ = {
+			isa = PBXGroup;
+			children = (
+				FA2424EC21F2FE7600599BEE /* VC */,
+			);
+			path = Finish;
+			sourceTree = "<group>";
+		};
+		FA2424EC21F2FE7600599BEE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				FA2424ED21F3023C00599BEE /* FinishViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		FA25025521F429BA005C4008 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FA25025621F429C0005C4008 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FA25025621F429C0005C4008 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA25025721F429D8005C4008 /* MainTableViewCell.swift */,
+				FA25025821F429D8005C4008 /* MainTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA25025C21F42C76005C4008 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				FA25025D21F42C8D005C4008 /* SSRealmTool.swift */,
+				FA25025F21F42CC2005C4008 /* SSItem.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
 		FA2FC52721F2E543007C8E4E = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +262,10 @@
 		FA2FC53221F2E543007C8E4E /* Smile */ = {
 			isa = PBXGroup;
 			children = (
+				FA25025C21F42C76005C4008 /* Database */,
+				FA2424CC21F2F1F700599BEE /* Utils */,
+				FA2424CB21F2F1F200599BEE /* Network */,
+				FA2424CA21F2EF5D00599BEE /* Class */,
 				FA2FC53321F2E543007C8E4E /* AppDelegate.swift */,
 				FA2FC53521F2E543007C8E4E /* ViewController.swift */,
 				FA2FC53721F2E543007C8E4E /* Main.storyboard */,
@@ -150,8 +338,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA2FC53E21F2E544007C8E4E /* LaunchScreen.storyboard in Resources */,
+				FA2424F521F303C300599BEE /* SmileCollectionViewCell.xib in Resources */,
 				FA2FC53B21F2E544007C8E4E /* Assets.xcassets in Resources */,
 				FA2FC53921F2E543007C8E4E /* Main.storyboard in Resources */,
+				FA25025A21F429D8005C4008 /* MainTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,30 +355,46 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Smile/Pods-Smile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/CropViewController/CropViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
 				"${BUILT_PRODUCTS_DIR}/PINOperation/PINOperation.framework",
 				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Popover/Popover.framework",
 				"${BUILT_PRODUCTS_DIR}/PryntTrimmerView/PryntTrimmerView.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKBitmojiKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKCoreKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKCreativeKit.framework",
+				"${PODS_ROOT}/SnapSDK/SCSDKLoginKit.framework",
 				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
 				"${BUILT_PRODUCTS_DIR}/Texture/AsyncDisplayKit.framework",
 				"${BUILT_PRODUCTS_DIR}/YPImagePicker/YPImagePicker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CropViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINOperation.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Popover.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PryntTrimmerView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKBitmojiKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKCreativeKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCSDKLoginKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AsyncDisplayKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YPImagePicker.framework",
@@ -238,8 +444,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA25025E21F42C8D005C4008 /* SSRealmTool.swift in Sources */,
+				FA2424DC21F2F2F600599BEE /* SSLoadingView.swift in Sources */,
+				FA2424E821F2F43E00599BEE /* ChooseFaceView.swift in Sources */,
+				FA2424CE21F2F21D00599BEE /* SSColor.swift in Sources */,
+				FA2424EE21F3023C00599BEE /* FinishViewController.swift in Sources */,
 				FA2FC53621F2E543007C8E4E /* ViewController.swift in Sources */,
+				FA2424E621F2F41D00599BEE /* SmileEditViewController.swift in Sources */,
+				FA2424D021F2F22F00599BEE /* SSDefine.swift in Sources */,
+				FA2424E221F2F35500599BEE /* SSFont.swift in Sources */,
+				FA2424D821F2F2BB00599BEE /* SSBaseViewController.swift in Sources */,
+				FA2424F421F303C300599BEE /* SmileCollectionViewCell.swift in Sources */,
+				FA25025921F429D8005C4008 /* MainTableViewCell.swift in Sources */,
+				FA2424E021F2F33B00599BEE /* UIImageExtension.swift in Sources */,
 				FA2FC53421F2E543007C8E4E /* AppDelegate.swift in Sources */,
+				FA2424DE21F2F32600599BEE /* UIViewExtension.swift in Sources */,
+				FA2424DA21F2F2D500599BEE /* SSHintView.swift in Sources */,
+				FA25026021F42CC2005C4008 /* SSItem.swift in Sources */,
+				FA2424EA21F2F44B00599BEE /* FaceRectView.swift in Sources */,
+				FA2424F021F302F300599BEE /* ChooseSmileView.swift in Sources */,
+				FA25020E21F3A761005C4008 /* ChooseFaceToolView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,10 +611,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HUDV85TGU9;
+				DEVELOPMENT_TEAM = 68R55D672Y;
 				INFOPLIST_FILE = Smile/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kingandyoga.Smile;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenxu.fswq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -403,10 +630,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HUDV85TGU9;
+				DEVELOPMENT_TEAM = 68R55D672Y;
 				INFOPLIST_FILE = Smile/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = kingandyoga.Smile;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenxu.fswq;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";

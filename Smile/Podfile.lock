@@ -1,5 +1,11 @@
 PODS:
+  - Alamofire (4.8.0)
   - CropViewController (2.4.0)
+  - Moya (12.0.1):
+    - Moya/Core (= 12.0.1)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
   - NVActivityIndicatorView (4.5.1):
     - NVActivityIndicatorView/Presenter (= 4.5.1)
   - NVActivityIndicatorView/Presenter (4.5.1)
@@ -18,13 +24,24 @@ PODS:
   - PINRemoteImage/PINCache (3.0.0-beta.13):
     - PINCache (= 3.0.1-beta.6)
     - PINRemoteImage/Core
+  - Popover (1.2.2)
   - PryntTrimmerView (3.0.0)
   - Realm (3.13.1):
     - Realm/Headers (= 3.13.1)
   - Realm/Headers (3.13.1)
   - RealmSwift (3.13.1):
     - Realm (= 3.13.1)
+  - Result (4.1.0)
   - SnapKit (4.2.0)
+  - SnapSDK (1.2.0):
+    - SnapSDK/SCSDKBitmojiKit (= 1.2.0)
+    - SnapSDK/SCSDKCreativeKit (= 1.2.0)
+    - SnapSDK/SCSDKLoginKit (= 1.2.0)
+  - SnapSDK/SCSDKBitmojiKit (1.2.0):
+    - PINCache (< 3.1, >= 2.3)
+    - PINOperation (~> 1.1)
+  - SnapSDK/SCSDKCreativeKit (1.2.0)
+  - SnapSDK/SCSDKLoginKit (1.2.0)
   - SteviaLayout (4.4.3)
   - Texture (2.7):
     - Texture/PINRemoteImage (= 2.7)
@@ -39,9 +56,12 @@ PODS:
 
 DEPENDENCIES:
   - CropViewController
+  - Moya (~> 12.0)
   - NVActivityIndicatorView
+  - Popover
   - RealmSwift
   - SnapKit
+  - SnapSDK
   - Texture
   - YPImagePicker (from `https://github.com/JinchengKim/YPImagePicker`)
 
@@ -55,19 +75,24 @@ CHECKOUT OPTIONS:
     :git: https://github.com/JinchengKim/YPImagePicker
 
 SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
   CropViewController: a090820b15fc3da68e694d7c192a4708c576828b
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
   NVActivityIndicatorView: ec34a7b88c51fab270004a1a1f32116e711010cd
   PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
   PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
   PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  Popover: 21e357f86d45c8d9e29a41a4adbca3664d6e511f
   PryntTrimmerView: 53ac64053c7ce63cb3e27f54090f52da0734891d
   Realm: 50071da38fe079e0735e47c9f2eae738c68c5996
   RealmSwift: 8a1e6a02b7a08cd17a31e3115143fb69fe5f3fb9
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SnapSDK: ab99c79e619067da4ed60c98ea5a04a288b83dc0
   SteviaLayout: ae5ee66101e03607a93c9b3773b84ab7ba7b3d17
   Texture: 9d7e38965cf22ccd7cd9c249dd78b3f14e70ab6c
   YPImagePicker: 5dd3814b47b1208e9c8cc8f6ef77fe90db3723b6
 
-PODFILE CHECKSUM: a280cb127c610ec0fe46c21f4193c56ede8eaa6b
+PODFILE CHECKSUM: 0083137ebcc8e8ce2b6512ef7c76d9c06d3656d5
 
 COCOAPODS: 1.4.0

@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>SayCheese</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -16,10 +18,37 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLSchemes</key>
+	<string>saycheese</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.shenxu.fswq</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>saycheese</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>19</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>snapchat</string>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>We need to access your camera</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>We need to access your photos </string>
+	<key>SCSDKClientId</key>
+	<string>acc7ca7c-0c28-4734-875c-580c28b91d7e</string>
+	<key>SCSDKRedirectUrl</key>
+	<string>www.google.com</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -41,5 +70,7 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>a</key>
+	<string></string>
 </dict>
 </plist>
